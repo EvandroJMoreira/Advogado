@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Landing Page para Advogado - Profissionalismo e Confiança">
+    <link rel="icon" type="image/svg+xml" href="./assets/img/logo.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Advogados | Especialista em Direito</title>
+</head>
+
+<body>
+
+    <!-- Seção: Home com vídeo de fundo -->
+    <header class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="assets/vid/assinatura.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="./assets/img/logocinza.png" alt="logo-advogados" class="logo" height="150px"/>
+            <h1>Defendendo seus direitos com seriedade</h1>
+            <p>Especialista em diversas áreas do Direito</p>
+            <a href="#contato" class="cta">Fale com Advogados</a>
+        </div>
+    </header>
+
+    <!-- Seção: Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Advogados</h2>
+            <p>Com ampla experiência e formação sólida, ofereço atendimento personalizado
+                e eficaz nas principais áreas do Direito.
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus odit fugiat? Vel dolores, cumque
+                aliquam culpa dolorum voluptas iusto quidem reiciendis doloremque temporibus architecto dolor facilis
+                vitae voluptate doloribus!
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et neque at itaque natus asperiores magnam vel
+                nisi sint eum provident aliquam illo eius eveniet accusamus, esse totam nihil dolores possimus?
+                <br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, commodi quam? Incidunt corporis,
+                sed nesciunt molestiae dicta molestias sit sequi optio aut, libero deserunt illum eius tempore? Minus,
+                iusto fugiat!
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção: Áreas de Atuação -->
+    <section id="atuacao">
+        <div class="container">
+            <h2>Áreas de Atuação</h2>
+            <ul class="areas">
+                <li>👨‍👩‍👧 Direito de Família</li>
+                <li>🏠 Direito Imobiliário</li>
+                <li>⚖️ Direito Penal</li>
+                <li>👴 Direito Previdenciário</li>
+                <li>💼 Direito Trabalhista</li>
+                <li>🌱 Direito Ambiental</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção: Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contato-form">
+                <input type="text" name="name" placeholder="Seu nome" required />
+                <input type="email" name="email" placeholder="Seu e-mail" required />
+                <input type="tel" name="phone" placeholder="Seu telefone" required />
+                <textarea name="message" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mensagem-confirmacao" class="oculto">
+                ✅ Mensagem enviada com sucesso. Agradecemos o contato!
+            </div>
+            <div class="info-contato">
+                <p>📞 (11) 99999-9999</p>
+                <p>✉️ contato@advogados.com</p>
+                <p>📍 São Paulo - SP</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Advogados. Todos os direitos reservados.</p>
+            <div class="redes">
+                <a href="https://linkedin.com">LinkedIn</a> |
+                <a href="https://instagram.com">Instagram</a> |
+                <a href="https://youtube.com">YouTube</a> |
+                <a href="https://x.com">X (Twitter)</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
