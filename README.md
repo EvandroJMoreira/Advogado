@@ -44,8 +44,4 @@ A página foi construída com foco em **otimização para mecanismos de busca**:
 - Estrutura leve sem bibliotecas externas
 
 ## 🧪 Como testar
-<a href="https://evandrojmoreira.github.io/MarioBros/">clique aqui</a>
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
-
+<a href="https://evandrojmoreira.github.io/Advogado/">clique aqui</a>
