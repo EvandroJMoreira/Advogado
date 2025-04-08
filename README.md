@@ -30,10 +30,6 @@ O código foi cuidadosamente estruturado para **otimização SEO**, com uso apro
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Estilização responsiva, efeitos visuais e layout grid |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Funcionalidade do formulário e feedback visual |
 
-## 📁 Estrutura de diretórios
-├── index.html ├── style.css ├── script.js └── assets ├── img │ └── logo.ico └── vid └── assinatura.mp4
-
-
 ## 💡 SEO e Performance
 
 A página foi construída com foco em **otimização para mecanismos de busca**:
